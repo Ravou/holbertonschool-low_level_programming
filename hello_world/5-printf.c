@@ -7,6 +7,6 @@
 
 init main (avoid)
 {
-	printif("with proper grammar, but the outcome is a piece of art,");
+	printif("\"with proper grammar, but the outcome is a piece of art,\"");
 	return (0);
 }
