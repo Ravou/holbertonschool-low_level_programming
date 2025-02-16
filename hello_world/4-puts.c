@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - affiche rogramming is like building a multilingual puzzle
- * Return:Always 0 
+ * main - affiche Programming is like building a multilingual puzzle
+ * Return: Always 0 
  */
 int main(void) 
 {
