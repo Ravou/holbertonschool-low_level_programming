@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - affiche Programming is like building a multilingual puzzle
  * Return: 0 
