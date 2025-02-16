@@ -7,7 +7,7 @@
  */
 int main(void) 
 {
-	write("\"Programming is like building a multilingual puzzle\"", 52);
+	write(1,"\"Programming is like building a multilingual puzzle\"", 52);
 	return 0;
        
 }
