@@ -2,7 +2,7 @@
 
 /**
  * main - print "with proper grammar, but the outcome is a piece of art,"
- * Return : Always 0 (success)
+ * return : Always 0 (success)
  */
 
 int main(void)
