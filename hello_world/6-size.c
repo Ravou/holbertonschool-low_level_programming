@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - Print "sizeof byte(s)"
+ * Return: Always 0 (Succes)
+ */
 int main(void)
 {
     printf("Size of char: %zu byte(s)\n", sizeof(char));
@@ -10,5 +14,5 @@ int main(void)
     printf("Size of double: %zu byte(s)\n", sizeof(double));
     printf("Size of long double: %zu byte(s)\n", sizeof(long double));
 
-    return 0;
+    return (0);
 }
