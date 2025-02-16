@@ -5,7 +5,7 @@
  */
 int main(void) 
 {
-	fputs("\"Programming is like building a multilingual puzzle\"", stdout);
+	write("\"Programming is like building a multilingual puzzle\"", 52);
 	return 0;
        
 }
