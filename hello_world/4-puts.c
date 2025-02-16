@@ -2,7 +2,7 @@
 
 /**
  * main - affiche Programming is like building a multilingual puzzle
- * Return : Toujour 0 (succès)
+ * Return: 0 
  */
 
 int main(void) 
