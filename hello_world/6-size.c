@@ -2,7 +2,7 @@
 
 /**
  * main - Print "sizeof byte(s)"
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
