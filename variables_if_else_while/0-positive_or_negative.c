@@ -12,18 +12,4 @@ int main(void)
 	/* your code goes there */
 	return (0);
 }
-if n > 0
-{
-	puts("is positive");
-	return (n);
-}
-if n == 0
-{
-	puts("is zero");
-	return (n);
-}
-if n < 0
-{
-	puts("is negative");
-	return (n);
-}
+gcc -o positive_or_negative
