@@ -12,11 +12,15 @@ int main(void)
 	/* your code goes there */
 	return (0);
 }
-if (n > 0) {
-    // Afficher que n est positif
-} else if (n < 0) {
-    // Afficher que n est négatif
-} else {
-    // Afficher que n est zéro
+if (n > 0) 
+{
+    printf("Afficher que n est positif")
+} else if (n < 0) 
+{
+    printf("Afficher que n est négatif")
+} else 
+{
+    printf("Afficher que n est zéro")
+    return (n);
 }
 gcc positive_or_negative -o .c
