@@ -12,4 +12,11 @@ int main(void)
 	/* your code goes there */
 	return (0);
 }
-gcc -o positive_or_negative
+if (n > 0) {
+    // Afficher que n est positif
+} else if (n < 0) {
+    // Afficher que n est négatif
+} else {
+    // Afficher que n est zéro
+}
+gcc positive_or_negative -o .c
