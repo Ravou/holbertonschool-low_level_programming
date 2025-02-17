@@ -28,3 +28,4 @@ int main(void)
 	return (0);
 
 }
+gcc positive_or_negative.c -o positive_or_negative
