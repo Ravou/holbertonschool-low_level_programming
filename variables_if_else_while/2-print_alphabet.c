@@ -3,10 +3,13 @@
  * main - entry point
  * Return: Always (0) (Success)
  */
-int main() {
+int main(void) 
+{
     char c;
-    for (c = 'A'; c <= 'Z'; c++) {
-        putchar(c);
+    for (c = 'A'; c <= 'Z'; c++) 
+    {
+	    putchar(c);
     }
-    putchar('\n'); // Nouvelle ligne après l'affichage des lettres
-    return 0;
+    putchar('\n');
+    return (0);
+}
