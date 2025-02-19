@@ -6,10 +6,6 @@
  */
 int main(void)
 {
-	_putchar('H');
-
-	_putchar('i');
-
-	_putchar('\n');
+	_putchar_test();
 	return (0);
 }
