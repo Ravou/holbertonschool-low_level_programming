@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
+ * _putchar_test - Utilise la fonction _putchar pour afficher un caractère
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Cette fonction appelle _putchar pour afficher le caractère 'H'.
  */
 void _putchar_test(void)
 {
