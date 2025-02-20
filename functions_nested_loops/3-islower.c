@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower(int c) - Entry point
+ * _islower(int c) - Entry point
  * @c: le caractère à tester
  * Return: 1 si c'est une lettre miniscule, 0 sinon
  *
