@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * _islower(int c) - Entry point
+ * _islower - Vérifie si un  caractère est un lettre miniscule
  * @c: le caractère à tester
- * Return: 1 si c'est une lettre miniscule, 0 sinon
  *
+ * Return: 1 si c'est une lettre miniscule, 0 sinon
  */
 int _islower(int c)
 {
