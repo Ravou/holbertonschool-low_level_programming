@@ -10,33 +10,13 @@ int _islower(int c)
 		if (c)
 		{
 			_putchar(c);
-			_putchar('l');
-			_putchar('o');
-			_putchar('w');
-			_putchar('e');
-			_putchar('r');
-			_putchar('c');
-			_putchar('a');
-			_putchar('s');
-			_putchar('e');
+			_putchar(1);
 			_putchar('\n');
 		}
 		else
 		{
 			_putchar(c);
-			_putchar('n');
-			_putchar('o');
-			_putchar('t');
-			_putchar(' ');
-			_putchar('l');
-			_putchar('o');
-			_putchar('w');
-			_putchar('e');
-			_putchar('r');
-			_putchar('c');
-			_putchar('a');
-			_putchar('s');
-			_putchar('e');
+			_putchar(0);
 			_putchar('\n');
 		}
 	}
