@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * int _islower(int c) - Entry point
  * Return: 0 (Success)
  */
-int main(void)
+int _islower(int c)
 {
-	char c;
-
 	for (c = 'A'; c <= 'z'; c++)
 	{
 		if (c)
