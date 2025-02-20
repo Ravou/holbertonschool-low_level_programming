@@ -4,7 +4,7 @@
  *
  * Return: Always (0) (Success)
  */
-int main(void)
+int print_alpahbet(void)
 {
 	int c;
 
