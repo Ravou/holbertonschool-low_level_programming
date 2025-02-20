@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - check the code
  *
- * Return: Always (0) (Success)
  */
-int print_alpahbet(void)
+void print_alphabet(void)
 {
 	int c;
 
@@ -13,5 +12,4 @@ int print_alpahbet(void)
 	_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
 }
