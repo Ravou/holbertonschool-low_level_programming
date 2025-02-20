@@ -5,20 +5,12 @@
  */
 int _islower(int c)
 {
-	for (c = 'A'; c <= 'z'; c++)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (c)
-		{
-			_putchar(c);
-			_putchar(1);
-			_putchar('\n');
-		}
-		else
-		{
-			_putchar(c);
-			_putchar(0);
-			_putchar('\n');
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
