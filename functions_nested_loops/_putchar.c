@@ -1,8 +1,11 @@
 #include <unistd.h>
+
 /**
- * main - entry point
- * @c: Le caractère à écrire.
- * Return: Le nombre d'octets écrits en cas de succès, -1 en cas d'erreur.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
 {
