@@ -1,6 +1,4 @@
-#include <ctype.h>
 #include "main.h"
-
 /**
  * main - Entry point
  * Return: 0 (Success)
@@ -11,7 +9,7 @@ int main(void)
 
 	for (c = 'A'; c <= 'z'; c++)
 	{
-		if (islower(c))
+		if (c)
 		{
 			_putchar(c);
 			_putchar('l');
