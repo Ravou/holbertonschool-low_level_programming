@@ -6,15 +6,13 @@
  * Return: Always (0) (Success)
  *
  */
-int _abs(int)
+int _abs(int j)
 {
-	int j;
-
-	if (j >= 0)
+	if (j = j)
 	{
 		return (1);
 	}
-	else(j <= 0);
+	else(j = -j);
 	{
 		return (0);
 	}
