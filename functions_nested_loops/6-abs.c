@@ -14,7 +14,7 @@ int _abs(int j)
 	}
 	else if (j > 0)
 	{
-		return (j);
+		return (-j);
 	}
 	return (0);
 }
