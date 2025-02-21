@@ -12,9 +12,9 @@ int _abs(int j)
 	{
 		return (j);
 	}
-	else if (j > 0)
+	else if (j >= 0)
 	{
-		return (-j);
+		return (j);
 	}
 	return (0);
 }
