@@ -3,7 +3,7 @@
 /**
  * _abs - calcul la valeur absolue d'un entier
  * @j: permet de donner d'une valeur absolue d'un nombre
- * Return: Always (0) (Success)
+ * Return: si c'est négative ou égal à zero (0) sinon (1)
  *
  */
 int _abs(int j)
@@ -12,7 +12,7 @@ int _abs(int j)
 	{
 		return (0);
 	}
-	else if (j > 1)
+	else if (j >= 0)
 	{
 		return (1);
 	}
