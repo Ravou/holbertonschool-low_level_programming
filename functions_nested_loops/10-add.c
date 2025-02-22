@@ -20,5 +20,6 @@ int add(int n, int m)
 		add(result / 10, 0);
 	}
 	_putchar((result % 10) + '0');
+
 	return (0);
 }
