@@ -1,19 +1,24 @@
 #include "main.h"
 /**
- * print_number - Affiche un entier avec _putchar
+ * add - Affiche un entier avec _putchar
  * @n: l'entier à afficher
+ * @m: le second entier à additionner
+ * Return: Always (0) (Success)
  */
-void print_number(int n)
+int add(int n, int m)
 {
-	if (n < 0)
+	int result = n + m;
+
+	if (result < 0)
 	{
 		_putchar('-');
-		n = -n;
+		result = -result;
 	}
 
-	if (n / 10 != 0)
+	if (result / 10 != 0)
 	{
-		print_number(n / 10);
+		add(result / 10, 0);
 	}
-	_putchar((n % 10) + '0');
+	_putchar((result % 10) + '0');
+	return (0);
 }
