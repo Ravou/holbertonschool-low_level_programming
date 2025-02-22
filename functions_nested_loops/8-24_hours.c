@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
  * jack_bauer - permet de calculer les minutes de sa journée sur 24h
- * @hr : donne la valeur de l'heure
- * @min: donne la veleur de min
  * Return: Always (0) (Success)
  *
  */
