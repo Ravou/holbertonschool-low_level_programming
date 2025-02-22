@@ -1,22 +1,29 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * jack_bauer - permet de calculer les minutes de sa journée sur 24h
- * Return: Always (0) (Success)
- *
+ * jack_bauer - affiche toutes les heures et minutes de la journée
+ * Return: Nothing
  */
 void jack_bauer(void)
 {
-	int h;
-	int m;
-
+	int h, m;
+	char digit1, digit2;
+	
 	for (h = 0; h < 24; h++)
 	{
-		for (m = 0; m <= 59; m++)
+		for (m = 0; m < 60; m++)
 		{
-			_putchar(m);
+			digit1 = (h / 10) + '0';
+			digit2 = (h % 10) + '0';
+			_putchar(digit1);
+			_putchar(digit2);
+			_putchar(':');
+			
+			digit1 = (m / 10) + '0';
+			digit2 = (m % 10) + '0';
+			_putchar(digit1);
+			_putchar(digit2);
 			_putchar('\n');
 		}
 	}
-	_putchar(h);
 }
