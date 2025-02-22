@@ -1,42 +1,25 @@
 #include "main.h"
 /**
- * add - Affiche un entier avec _putchar
- * @n: l'entier à afficher
+ * add - Additionne deux entiers et affiche le résultat avec _putchar
+ * @n: le premier entier à additionner
  * @m: le second entier à additionner
- * Return: Always (0) (Success)
+ *
+ * Return: Toujours 0 (succès)
  */
 int add(int n, int m)
 {
 	int result = n + m;
-	int digit;
-
+	
 	if (result < 0)
 	{
 		_putchar('-');
 		result = -result;
 	}
-
-	if (result / 10 != 0)
+	
+	if (result >= 10)
 	{
-		_putchar('0');
+		_putchar((result / 10) + '0');
 	}
-	else
-	{
-		int divisor = 1000000000;
-		int leading_zero = 1;
-
-		while (divisor > 0)
-		{
-			digit = result / divisor;
-			result %= divisor;
-			divisor /= 10;
-
-			if (digit != 0 || !leading_zero)
-			{
-				_putchar( digit + '0');
-				leading_zero = 0;
-			}
-		}
-	}
+	_putchar((result % 10) + '0');
 	return (0);
 }
