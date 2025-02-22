@@ -9,17 +9,22 @@
 int add(int n, int m)
 {
 	int result = n + m;
+	int tens, ones;
 	
 	if (result < 0)
 	{
 		_putchar('-');
 		result = -result;
 	}
+
+	tens = result / 10;
+	ones = result % 10;
+
 	
-	if (result >= 10)
+	if (tens != 10)
 	{
-		_putchar((result / 10) + '0');
+		_putchar(tens + '0');
 	}
-	_putchar((result % 10) + '0');
+	_putchar(ones+ '0');
 	return (0);
 }
