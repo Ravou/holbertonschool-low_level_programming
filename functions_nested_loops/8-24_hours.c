@@ -8,7 +8,7 @@ void jack_bauer(void)
 {
 	int h, m;
 	char digit1, digit2;
-	
+
 	for (h = 0; h < 24; h++)
 	{
 		for (m = 0; m < 60; m++)
@@ -18,7 +18,6 @@ void jack_bauer(void)
 			_putchar(digit1);
 			_putchar(digit2);
 			_putchar(':');
-			
 			digit1 = (m / 10) + '0';
 			digit2 = (m % 10) + '0';
 			_putchar(digit1);
