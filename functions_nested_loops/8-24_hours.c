@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * jack_bauer - permet de calculer les minutes de sa journée sur 24h
  * Return: Always (0) (Success)
@@ -6,10 +7,17 @@
  */
 void jack_bauer(void)
 {
-	int c;
+	int hr;
+	int min;
 
-	for (c = 00 : 00 && c < 24 : 00; c++)
+	for ( hr = 0; hr <= 24; hr++)
 	{
-		_putchar(c);
+		for (min = 0; min <= 1440; min++)
+		{
+			_putchar(min);
+		}
 	}
+	_putchar(hr);
+	_putchar(':');
+	_putchar('\n');
 }
