@@ -17,7 +17,7 @@ int add(int n, int m)
 
 	if (result / 10 != 0)
 	{
-		add(result / 10, 0);
+		_putchar('0');
 	}
 	_putchar((result % 10) + '0');
 
