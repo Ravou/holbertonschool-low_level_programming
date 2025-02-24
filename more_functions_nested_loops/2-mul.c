@@ -3,7 +3,7 @@
  * mul - fonction qui permet de multiplié 
  * @a: Premier nombre
  * @b: Deuxième nombre
- * Return: Always (0) (Success)
+ * Return: (a * b)
  *
  */
 int mul(int a, int b)
