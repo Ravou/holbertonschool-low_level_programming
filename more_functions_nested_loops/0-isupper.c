@@ -3,7 +3,7 @@
 /**
  * _isupper - Vérifie si un caractère est une majuscule
  * @c: Le caractère à tester
- * 
+ *
  * Return: 1 si c est une majuscule, 0 sinon
  */
 int _isupper(int c)
