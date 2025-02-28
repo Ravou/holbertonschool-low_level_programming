@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * print_rev - permet d'afficher la chaine de caractère à l'envers
- * @*s: le pointeur a modifier
+ * @s: pointeur vers la chaine à afficher
  *
  */
 void print_rev(char *s)
