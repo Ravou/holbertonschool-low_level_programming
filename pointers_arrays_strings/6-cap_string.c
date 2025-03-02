@@ -18,14 +18,13 @@ char *cap_string(char *str)
 			{
 				str[i] -= ('a' - 'A');
 			}
-			cap_next = 0;
-			for (j = 0; separators[j] != '\0'; j++)
+			if (isspace(str[1]) || ispunct(str[i]))
 			{
-				if (str[i] == separators[j])
-				{
-					cap_next = 1;
-					break;
-				}
+				cap_next = 1;
+			}
+			else
+			{
+				cap_next = 0;
 			}
 			i++;
 		}
