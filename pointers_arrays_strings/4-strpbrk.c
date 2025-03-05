@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * *_strpbrk - fonction qui localise les occurences
- *@s : est la chaine de caractère initial
+ *_strpbrk - fonction qui localise les occurences dans une chaine
+ *@s: est la chaine de caractère initial
  *@accept: est la chaine de caractère de référence
  *
+ * Return :
+ * - Un pointeur vers le premier caractère dans s
+ * - (NULL) si aucune correspondance n'est trouvé
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -20,5 +23,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	return (0);
+	return (NULL);
 }
