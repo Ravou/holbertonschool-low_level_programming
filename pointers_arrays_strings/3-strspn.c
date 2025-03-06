@@ -2,7 +2,7 @@
 /**
  * int _strspn - fonction qui permet d'afficher le prefix d'une sous caractère
  * @s : la référence a une partie de du début de chaine de caractère
- * @accept: la chaine de caractère comparatif 
+ * @accept: la chaine de caractère comparatif
  *
  */
 unsigned int _strspn(char *s, char *accept)
