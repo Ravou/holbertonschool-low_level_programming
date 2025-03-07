@@ -1,21 +1,13 @@
 #include "main.h"
-#define NULL ((void *)0)
 /**
- * _strchr - Locates a character in a string
- * @s: The string to search
- * @c: The character to find
+ * _strlen_recursion - Calcule la longueur d'une chaîne de caractères
+ * @s: La chaîne de caractères
  *
- * Return: Pointer to the first occurrence of (c) in (s), or (NULL) if not found
+ * Return: La longueur de la chaîne
  */
-char *_strchr(char *s, char c)
+int _strlen_recursion(char *s)
 {
-	while (*s != '\0')
-	{
-		if (*s == c)
-			return (s);
-		s++;
-	}
-	if (c == '\0')
-		return (s);
-	return (NULL);
+	if (*s == '\0')
+		return (0);
+	return (1 + _strlen_recursion(s + 1));
 }
