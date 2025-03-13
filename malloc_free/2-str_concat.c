@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * str_concat - fonction qui permet de concatené deux chaine de caractère
  * @s1: première chaine de caractère
@@ -8,21 +8,24 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, k;
-	char concat;
+	int i = 0, j = 0, k;
+	char *concat;
 
-	for (i = 0; s1[i] = '\0'; i++)
-	{
-		for (j = 0; S2 [j] != '\0'; j++)
-			_putchar(j);	
-	}
-	_putchar(j);
-
-	concat = (char *)malloc((i+1)(j+1) * sizeof(char));
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	while (s1[i] != '\0')
+		i++;
+	while (s2[j] != '\0')
+		j++;
+	concat = (char *)malloc((i + j + 1) * sizeof(char));
 	if (concat == NULL)
 		return (NULL);
-
-	concat[k] = s1[i] + s2[j]
-		for (k = 0; concat[k] = '\0'; k++)
-			return(concat);
-}	
+	for (k = 0; k < i; k++)
+		concat[k] = s1[k];
+	for (k = 0; k < j; j++)
+		concat[i + k] = s2[k];
+	concat[i + j] = '\0';
+	return (concat);
+}
