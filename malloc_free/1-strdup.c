@@ -3,7 +3,7 @@
 /**
  * _strdup- fonction qui retourne a un pointeur le dublon
  *@str: la chaine de caractère doublé
- *Return : si str est égale à (NULL) et si la mémoire est insuffisant
+ *Return: si str est égale à (NULL) et si la mémoire est insuffisant
  *
  */
 char *_strdup(char *str)
