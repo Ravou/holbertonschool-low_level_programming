@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid - une fonction permet de retourné un pointeur vers un 2D array
+ *alloc_grid - une fonction permet de retourné un pointeur vers un 2D array
  *@width: est la largeur du array
  *@height: esl l'hauteur du array
+ *Return: pointeur vers le array 2D, ou NULL an cas d'echec
  */
 int **alloc_grid(int width, int height)
 {
