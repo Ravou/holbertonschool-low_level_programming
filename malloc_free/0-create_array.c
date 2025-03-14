@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-/*
+/**
  * create_array - fonction qui créer un caractère
  *@size: est la taille du tableau
  *@c: est le caractère
