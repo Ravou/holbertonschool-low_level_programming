@@ -5,7 +5,7 @@
  *@b : la taille en octet à allouer
  *
  * Return: Pointeur vers la mémoire allouée
- * Si l'allocation échoué, retourne (void *)98.
+ * Si l'allocation échoué, le programme termine avec le statut 98.
  */
 void *malloc_checked(unsigned int b)
 {
@@ -13,6 +13,6 @@ void *malloc_checked(unsigned int b)
 
 	ptr = malloc(b);
 	if (ptr == NULL)
-		return ((void *) 98);
+		exit(98);
 	return (ptr);
 }
