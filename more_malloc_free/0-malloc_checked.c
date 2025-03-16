@@ -5,14 +5,14 @@
  *@b : la taille en octet à allouer
  *
  * Return: Pointeur vers la mémoire allouée
- * si malloc est (NULL) et en cas d'echec return (98) pour terminer le programme.
+ * Si l'allocation échoué, retourne (void *)98.
  */
 void *malloc_checked(unsigned int b)
 {
-        void *ptr;
+	void *ptr;
 
-        ptr = malloc(b);
-        if (ptr == NULL)
-                exit(98);
-        return (ptr);
+	ptr = malloc(b);
+	if (ptr == NULL)
+		return ((void *) 98);
+	return (ptr);
 }
