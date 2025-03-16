@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * malloc_checked - permet d'allouer la mémoire
- *@b : la taille en octet à allouer
+ * malloc_checked - Alloue de la mémoire dynamiquement avec malloc.
+ *@b: Taille en octet à allouer
  *
  * Return: Pointeur vers la mémoire allouée
  * Si l'allocation échoué, le programme termine avec le statut 98.
