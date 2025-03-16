@@ -5,10 +5,12 @@
  *@b: Taille en octet à allouer
  *
  * Return: Pointeur vers la mémoire allouée.
+ *
  */
 void *malloc_checked(unsigned int b)
 {
 	void *ptr = malloc(b);
+	
 	if (ptr == NULL)
 		exit(98);
 
