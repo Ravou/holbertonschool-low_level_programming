@@ -1,12 +1,15 @@
 #include "lists.h"
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
+
 /**
- * add_node_end - fonction qui ajoute un node a la fin
- *@head: qui pointe les élement de la liste
- *@str: une chaine à stocker dans le node
- * Return: adresse des nouveau élément ou NULL en cas d'échec
+ * add_node - rajouter un nouveau node au début de list_t list
+ * @head: pointeur du premier élément de la liste
+ * @str: tableau dupliqué
+ *
+ * Return: l'adresse du nouveau élément, ou NULL en cas d'echec
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *temp;
