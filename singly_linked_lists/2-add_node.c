@@ -4,8 +4,8 @@
 #include <string.h>
 /**
  * add_node - fonction qui ajoute des node au début de la liste
- * @head: pointeurs 
- * @str: qui duplique la liste
+ * @head: pointeur
+ *@str: qui duplique la liste
  * Return: adresse des nouvelle éléments ou NULL en cas d'échec
  */
 list_t *add_node(list_t **head, const char *str)
@@ -15,7 +15,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
+
 	while (str[len])
 		len++;
 
