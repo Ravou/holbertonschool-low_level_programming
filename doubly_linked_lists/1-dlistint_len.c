@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_dlistint - fonction affiche les éléments de la liste
+ * dlistint_len - fonction affiche les nombre d'éléments de la liste
  * @h: pointeur qui pointe vers le premier élément
  * Return: le nombre de nodes
  */
