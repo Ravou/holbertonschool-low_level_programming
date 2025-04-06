@@ -3,7 +3,8 @@
 #include <string.h>
 /**
  * add_dnodeint - function for add a new node at the beginning
- * @head: is a pointeur to the list structure
+ * @head: is a pointeur to the list structur
+ * @n: interger of the list
  * Return: the adresse of the new element or (NULL) if it failled
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
