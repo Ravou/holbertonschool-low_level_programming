@@ -4,7 +4,7 @@
  * add_dnodeint_end - function that adds a new node at the end
  * @head: pointer to the list of the structur
  * @n: integer of list
- * return: adresse of new element or NULL if it failed
+ * Return: adresse of new element or NULL if it failed
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -19,13 +19,13 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new_node->n = n;
 	new_node->prev = NULL;
 	new_node->next = NULL;
-	
+
 	if (*head == NULL)
 	{
 		*head = new_node;
 		return (new_node);
 	}
-	
+
 	temp = *head;
 	while (temp->next != NULL)
 		temp = temp->next;
